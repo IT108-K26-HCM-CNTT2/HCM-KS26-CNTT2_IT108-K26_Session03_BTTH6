@@ -1,0 +1,90 @@
+SESSION 3 - BTTH6
+
+1. MÔ HÌNH DIKW CỦA MOMO-LITE
+
+Data - Dữ liệu
+- Số tiền giao dịch
+- Thời gian giao dịch
+- Loại chi tiêu
+- Địa điểm
+- Người nhận/người gửi
+
+Đây là dữ liệu thô, chưa được phân tích.
+
+Information - Thông tin
+- Tổng tiền đã chi trong tháng
+- Số lượng giao dịch
+- Chi tiêu theo từng nhóm: ăn uống, mua sắm, đi lại...
+- So sánh chi tiêu giữa các tháng
+
+Knowledge - Kiến thức
+- Phân tích thói quen chi tiêu
+- Cảnh báo khi chi tiêu vượt mức
+- Phát hiện nhóm chi tiêu đang tăng
+- Ví dụ: Chi tiêu ăn uống đã vượt mức đặt ra.
+
+Wisdom - Trí tuệ
+- Gợi ý giảm chi tiêu không cần thiết
+- Đặt giới hạn chi tiêu cho từng nhóm
+- Dành một phần tiền mỗi tháng để tiết kiệm
+- Đề xuất kế hoạch tiết kiệm phù hợp
+
+
+2. INPUT - PROCESS - OUTPUT
+
+Input:
+- Dữ liệu giao dịch
+- Số tiền
+- Thời gian
+- Loại giao dịch
+- Thông tin tài khoản
+- Mục tiêu tiết kiệm
+
+Process:
+- Lưu trữ dữ liệu
+- Tính tổng và phân loại chi tiêu
+- So sánh với các tháng trước
+- Phát hiện chi tiêu bất thường
+- Tạo cảnh báo và gợi ý tiết kiệm
+
+Output:
+- Báo cáo chi tiêu tháng
+- Cảnh báo chi tiêu quá mức
+- Biểu đồ chi tiêu
+- Gợi ý kế hoạch tiết kiệm
+
+
+3. FILE CẤU HÌNH .ENV
+
+File .env thường dùng để lưu:
+- API key
+- Mật khẩu
+- Secret key
+- Thông tin kết nối database
+
+File .env có thể bị ẩn nên cần bật hiển thị file ẩn để kiểm tra.
+
+Không nên đưa file .env lên GitHub vì có thể làm lộ thông tin bảo mật.
+
+
+4. TÍNH DUNG LƯỢNG
+
+Mỗi giao dịch: 1 KB
+Một ngày: 1.000.000 giao dịch
+
+1.000.000 × 1 KB = 1.000.000 KB
+
+1.000.000 ÷ 1024 ≈ 976,56 MB
+
+→ Mỗi ngày cần khoảng 976,56 MB, gần 1 GB.
+
+
+5. KẾT LUẬN
+
+MoMo-Lite sử dụng DIKW để biến dữ liệu giao dịch thành thông tin, kiến thức và gợi ý tiết kiệm.
+
+Input: dữ liệu giao dịch
+Process: xử lý và phân tích
+Output: báo cáo, cảnh báo và gợi ý
+
+Repository: [Tên Lớp]_[Môn Học]_Session3_BTTH6
